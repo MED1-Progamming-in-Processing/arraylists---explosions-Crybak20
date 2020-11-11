@@ -1,7 +1,7 @@
 //Arraylist is a class object in java. Items can be easily added and removed from the ArrayList and it is resized dynamically
 //https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
 ArrayList<Circle> circles = new ArrayList<Circle>();
-int object = 0;
+int object;
 
 void setup() {
   size(500, 500, P2D);
