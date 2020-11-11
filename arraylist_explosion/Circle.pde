@@ -29,17 +29,17 @@ PImage photo = loadImage("rain.png");
   }
 
   void display() {
-    if (object == 1){
+    if (object == 0){
     noStroke();
     fill(random(255),random(255),random(255));
     ellipse(x, y, r, r);
     }
-    if (object == 2){
+    if (object == 1){
     noStroke();
     fill(random(255),random(255),random(255));
     rect(x, y, r, r);
     }
-    if (object == 3){
+    if (object == 2){
     image(photo,x, y,15,35);
     }
   }
